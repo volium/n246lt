@@ -1657,6 +1657,141 @@
           ]
         },
         {
+          "title": "LOC APPROACH",
+          "items": [
+            {
+              "prompt": "LOC APPROACH",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Approach Briefing",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ATIS/AWOS",
+              "expectation": "OBTAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Altimeter",
+              "expectation": "SET & CROSS-CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "COM Radios",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "GTN 650 Xi",
+              "expectation": "APPROACH LOADED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Localizer Frequency",
+              "expectation": "SET, ACTIVATE & IDENTIFY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Localizer Course",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "CDI",
+              "expectation": "VLOC (NOT GPS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "MDA",
+              "expectation": "SET IN ALTITUDE ALERTER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Timing",
+              "expectation": "CALCULATE FAF TO MAP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Localizer",
+              "expectation": "VERIFY ALIVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Missed Approach Point",
+              "expectation": "IDENTIFIED & BRIEFED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Approach Threats",
+              "expectation": "IDENTIFIED (WX, TERRAIN, TRAFFIC)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "PRIOR TO FAF",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Before Landing Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airport Runway Lights",
+              "expectation": "ACTIVATED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Aircraft",
+              "expectation": "FINAL LANDING CONFIG",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AT FAF",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Timer",
+              "expectation": "START",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "CDI",
+              "expectation": "TRACK CENTERLINE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Descent",
+              "expectation": "FOLLOW STEP-DOWNS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AT MDA",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Level Off",
+              "expectation": "MAINTAIN MDA",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RUNWAY ENVIRONMENT IN SIGHT BEFORE MAP",
+              "expectation": "LAND",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RUNWAY ENVIRONMENT NOT IN SIGHT AT MAP",
+              "expectation": "GO AROUND (MISSED APPROACH)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
           "title": "VOR APPROACH",
           "items": [
             {
