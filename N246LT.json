@@ -360,8 +360,28 @@
               "centered": true
             },
             {
+              "prompt": "Parking Brake",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Key",
               "expectation": "IN IGNITION",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "EFIS Backup",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "VERIFY BATTERY VOLTAGE",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "EFIS 1",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -385,21 +405,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "EFIS Backup",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "VERIFY BATTERY VOLTAGE",
-              "type": "ITEM_PLAINTEXT",
-              "centered": true
-            },
-            {
-              "prompt": "EFIS 1",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Strobe Lights",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -407,11 +412,6 @@
             {
               "prompt": "Fuel Selector",
               "expectation": "LOWEST TANK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Parking Brake",
-              "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
