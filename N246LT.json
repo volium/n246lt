@@ -2554,7 +2554,7 @@
           ]
         }
       ],
-      "category": "normal"
+      "category": "emergency"
     },
     {
       "title": "ABNORMAL PROCEDURES",
@@ -2850,7 +2850,7 @@
           ]
         }
       ],
-      "category": "normal"
+      "category": "abnormal"
     }
   ]
 }
