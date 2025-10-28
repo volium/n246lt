@@ -1400,6 +1400,11 @@
               "centered": true
             },
             {
+              "prompt": "GPS Approach Mode",
+              "expectation": "VERIFY NO DOWNGRADE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "CDI",
               "expectation": "TRACK CENTERLINE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1508,6 +1513,11 @@
               "prompt": "AT FAF",
               "type": "ITEM_PLAINTEXT",
               "centered": true
+            },
+            {
+              "prompt": "GPS Approach Mode",
+              "expectation": "VERIFY NO DOWNGRADE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Timer",
