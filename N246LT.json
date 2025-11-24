@@ -421,7 +421,7 @@
             },
             {
               "prompt": "ECU Backup",
-              "expectation": "ON, 5 SEC (PRIME)",
+              "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -556,13 +556,19 @@
               "indent": 1
             },
             {
-              "prompt": "Altimeter",
+              "prompt": "CDI Source",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE",
               "indent": 1
             },
             {
               "prompt": "Heading Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE",
+              "indent": 1
+            },
+            {
+              "prompt": "Altimeter",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE",
               "indent": 1
@@ -794,6 +800,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "CDI Source",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Heading Bug",
               "expectation": "SET",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -841,6 +852,11 @@
             {
               "prompt": "Canopy",
               "expectation": "CLOSED & LOCKED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "CDI Source",
+              "expectation": "SET/VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1179,11 +1195,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Throttle",
-              "expectation": "IDLE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Lights",
               "expectation": "ALL OFF - EXCEPT STROBE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1201,6 +1212,11 @@
             {
               "prompt": "EFIS 2",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Throttle",
+              "expectation": "IDLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
