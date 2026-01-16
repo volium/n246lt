@@ -5,7 +5,7 @@
     "makeAndModel": "Sling Aircraft - Sling LSA",
     "aircraftInfo": "N246LT",
     "manufacturerInfo": "Sling Aircraft",
-    "modifiedTime": 1761612021
+    "modifiedTime": 1768592801
   },
   "groups": [
     {
@@ -436,7 +436,7 @@
             },
             {
               "prompt": "Throttle",
-              "expectation": "32-COLD | 28-WARM",
+              "expectation": "34-COLD | 30-WARM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -485,7 +485,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Alternator B",
+              "prompt": "Alternator A",
               "expectation": "VERIFY ON (MAIN > 13.8V)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -585,13 +585,18 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "Strobe Lights",
+              "expectation": "AS REQUIRED (OFF AFTER SUNSET)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Taxi Lights",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Nav Lights",
-              "expectation": "AS NEEDED (ON AFTER SUNSET)",
+              "expectation": "AS REQUIRED (ON AFTER SUNSET)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -881,7 +886,7 @@
             },
             {
               "prompt": "Lights",
-              "expectation": "ON",
+              "expectation": "ALL ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1145,7 +1150,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Lights",
+              "prompt": "Strobe Lights",
+              "expectation": "AS REQUIRED (OFF AFTER SUNSET)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Other Lights",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1316,7 +1326,7 @@
             },
             {
               "prompt": "Engine Warmer",
-              "expectation": "CONNECTED (*IF NEEDED)",
+              "expectation": "CONNECTED (*IF REQUIRED)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2088,12 +2098,12 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "AS NEEDED",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Throttle",
-              "expectation": "AS NEEDED",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2418,7 +2428,7 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "AS NEEDED",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
