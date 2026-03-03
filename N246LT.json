@@ -466,7 +466,7 @@
             },
             {
               "prompt": "Oil Temperature",
-              "expectation": "> 120F (50C)",
+              "expectation": "> 123F (50C)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
