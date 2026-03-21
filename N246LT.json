@@ -3440,6 +3440,106 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
+        },
+        {
+          "title": "CHANDELLES",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Visual Reference",
+              "expectation": "CHOOSE 90 DEGREES OFF WING IN DIRECTION OF TURN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Current Airplane Heading",
+              "expectation": "NOTE AS ENTRY HEADING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading Bug",
+              "expectation": "SET TO EXIT HEADING (180 DEGREEES FROM ENTRY HEADING)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "CONFIGURE CRUISE AT ~4500 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Bank",
+              "expectation": "ENTER 30° TURN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "MAX",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch",
+              "expectation": "BEGIN PITCH UP, HOLD MAX (20 DEGREES) AT 45 DEGREE POINT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Maintain coordination throughout the maneuver",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Last 90 degrees of Turn",
+              "expectation": "MAINTAIN MAX PITCH-UP ATTITUDE (20 DEGREES)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Bank",
+              "expectation": "RELIEVE TO WINGS LEVEL AT 180° WITH MAX PITCH UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "MINIMUM CONTROLLABLE (55 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "HOLD WITHOUT STALLING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Angle of Attack",
+              "expectation": "SLOWLY LOWER WITHOUT LOSING ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
         }
       ],
       "category": "normal"
