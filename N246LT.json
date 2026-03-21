@@ -3210,6 +3210,141 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
+        },
+        {
+          "title": "POWER-ON STALL",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Outside Visual Reference",
+              "expectation": "PICK APPROPRIATE POINT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading & Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "REDUCE TO 3500 - 3700 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "INCREASE TO MAINTAIN ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps (Below 85 KIAS)",
+              "expectation": "POSITION 1",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Trim",
+              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wings",
+              "expectation": "MAINTAIN LEVEL OR AS SPECIFIED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "INCREASE UNTIL 60 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "FULL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "CONTINUE INCREASING TO REDUCE AIRSPEED (20° PITCH)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Rudder Pedals",
+              "expectation": "MAINTAIN COORDINATION",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "AOA Indication",
+              "expectation": "RECOGNIZE FULL STALL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Pitch",
+              "expectation": "SLIGHTLY BELOW HORIZON & STALL INDICATIONS CEASE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "MAX",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "VERIFY INCREASING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "ACCELERATE TO 60 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch",
+              "expectation": "UP TO MAINTAIN Vx: 65 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Positive Rate of Climb",
+              "expectation": "VERIFY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "ACCELERATE TO Vy: 72 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Positive Rate",
+              "expectation": "VERIFY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
         }
       ],
       "category": "normal"
