@@ -3540,6 +3540,151 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
+        },
+        {
+          "title": "EIGHTS ON PYLONS",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Pylons",
+              "expectation": "CHOOSE TWO VISUAL REFERENCES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Distance: approximately 1/2 to 1 mile apart",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Pylons should be in a line perpendicular to the wind direction",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Pivotal Altitude",
+              "expectation": "DETERMINE FROM GROUND SPEED ON DOWNWIND (BEFORE ENTERING)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "PIVOTAL ALTITUDE REFERENCE (GS² / 11.3)",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "60 kt: ~320 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "65 kt: ~380 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "70 kt: ~430 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "75 kt: ~500 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "80 kt: ~570 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "85 kt: ~640 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "90 kt: ~720 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "95 kt: ~800 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "100 kt: ~890 ft AGL",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Airplane Heading & Pivotal Altitude",
+              "expectation": "NOTE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "CONFIGURE CRUISE AT 5000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Position",
+              "expectation": "ENTER AT 45 DEGREES BETWEEN PYLONS ON DOWNWIND AT PIVOTAL ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "First Turn",
+              "expectation": "BEGIN WHEN ABEAM PYLON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Adjust pitch to maintain pivotal altitude, keeping pylon at same spot relative to wing tip",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Wings",
+              "expectation": "MOMENTARILY LEVEL WHEN FLYING TO NEXT PYLON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Next Turn",
+              "expectation": "ENTER",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Second Pylon",
+              "expectation": "REPEAT PITCH ADJUSTMENT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Exit",
+              "expectation": "AT ENTRY ALTITUDE, HEADING & AIRSPEED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
         }
       ],
       "category": "normal"
