@@ -3405,7 +3405,7 @@
               "centered": true
             },
             {
-              "prompt": "To maintain altitude, hold approximately 5 degrees pitch up (at ~60 degrees bank)",
+              "prompt": "Hold approximately 5 degrees pitch up (at ~60 degrees bank)",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
