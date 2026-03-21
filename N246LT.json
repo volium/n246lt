@@ -431,7 +431,7 @@
             },
             {
               "prompt": "Lane Lights",
-              "expectation": "VERIFY  EXTINGUISHED",
+              "expectation": "VERIFY EXTINGUISHED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2669,7 +2669,7 @@
               "centered": true
             },
             {
-              "prompt": "LAND",
+              "prompt": "Land",
               "expectation": "AS SOON AS POSSIBLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
