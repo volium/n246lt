@@ -470,7 +470,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": " THROTTLE SHOULD REMAIN < 2500 RPM UNTIL OIL TEMP > 122F (50C)",
+              "prompt": "THROTTLE SHOULD REMAIN < 2500 RPM UNTIL OIL TEMP > 123F (50C)",
               "type": "ITEM_WARNING",
               "centered": true
             },
@@ -678,6 +678,11 @@
               "prompt": "Fuel Selector",
               "expectation": "HIGHEST TANK",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "VERIFY OIL TEMPERATURE > 123F (50C)",
+              "type": "ITEM_WARNING",
+              "centered": true
             },
             {
               "prompt": "Throttle",
