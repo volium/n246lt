@@ -2897,6 +2897,152 @@
         }
       ],
       "category": "abnormal"
+    },
+    {
+      "title": "MANEUVERS",
+      "checklists": [
+        {
+          "title": "SLOW FLIGHT",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Outside Visual Reference",
+              "expectation": "PICK APPROPRIATE POINT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading & Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "REDUCE TO 3500 - 3700 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "INCREASE TO MAINTAIN ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps (Below 85 KIAS)",
+              "expectation": "POSITION 1",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Trim",
+              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "FULL (POSITION 3)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Wings",
+              "expectation": "MAINTAIN LEVEL OR AS SPECIFIED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "INCREASE UNTIL 60 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "GRADUALLY INCREASE TO ~4200 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure",
+              "expectation": "GRADUALLY INCREASE UNTIL 55 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Trim",
+              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch, Power, Bank",
+              "expectation": "MAINTAIN AIRSPEED, ALTITUDE, HEADING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Continue at 55 KIAS, or minimum speed to avoid a stall",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "MAX",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "POSITION 2",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Forward Pressure & Trim",
+              "expectation": "APPLY & ADJUST",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Altitude",
+              "expectation": "MAINTAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "VERIFY INCREASING TO 65 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "POSITION 1",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "VERIFY INCREASING TO 72 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        }
+      ],
+      "category": "normal"
     }
   ]
 }
