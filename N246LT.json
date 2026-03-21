@@ -3276,7 +3276,7 @@
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "CONTINUE INCREASING TO REDUCE AIRSPEED (20° PITCH)",
+              "expectation": "CONTINUE INCREASING TO REDUCE AIRSPEED (20 DEGREES PITCH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3337,6 +3337,101 @@
             {
               "prompt": "Flaps",
               "expectation": "UP",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "STEEP TURNS",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Outside Visual Reference",
+              "expectation": "PICK APPROPRIATE POINT",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading & Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "BELOW VA/VO (91 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "~4400 RPM (85 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Bank",
+              "expectation": "GRADUAL LEFT OR RIGHT TURN TO >= 45 degrees",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Back Pressure (passing 20 degrees Bank)",
+              "expectation": "GRADUALLY INCREASE TO MAINTAIN ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Left turn: nose on horizon. Right turn: left edge of cowling on horizon.",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "To maintain altitude, hold approximately 5 degrees pitch up (at ~60 degrees bank)",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "INCREASE ~200 RPM FROM ENTRY",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch, Power, Bank",
+              "expectation": "MAINTAIN ALTITUDE & AIRSPEED",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Roll Out",
+              "expectation": "BEGIN 20 degrees BEFORE ENTRY HEADING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pitch",
+              "expectation": "GRADUALLY DECREASE TO PREVENT ALTITUDE GAIN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "REDUCE ~200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
