@@ -2915,13 +2915,13 @@
               "centered": true
             },
             {
-              "prompt": "Outside Visual Reference",
-              "expectation": "PICK APPROPRIATE POINT",
+              "prompt": "Visual Reference",
+              "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -2936,61 +2936,61 @@
             },
             {
               "prompt": "Power",
-              "expectation": "REDUCE TO 3500 - 3700 RPM",
+              "expectation": "3500-3700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE TO MAINTAIN ALTITUDE",
+              "expectation": "MAINTAIN ALTITUDE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flaps (Below 85 KIAS)",
+              "prompt": "Flaps (<85 KIAS)",
               "expectation": "POSITION 1",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Trim",
-              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Flaps",
-              "expectation": "FULL (POSITION 3)",
+              "expectation": "FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Wings",
-              "expectation": "MAINTAIN LEVEL OR AS SPECIFIED",
+              "expectation": "LEVEL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE UNTIL 60 KIAS",
+              "expectation": "TO 60 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Power",
-              "expectation": "GRADUALLY INCREASE TO ~4200 RPM",
+              "expectation": "~4200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "GRADUALLY INCREASE UNTIL 55 KIAS",
+              "expectation": "TO 55 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Trim",
-              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Pitch, Power, Bank",
-              "expectation": "MAINTAIN AIRSPEED, ALTITUDE, HEADING",
+              "prompt": "Pitch/Power/Bank",
+              "expectation": "MAINTAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Continue at 55 KIAS, or minimum speed to avoid a stall",
+              "prompt": "Hold 55 KIAS or min speed without stalling",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
@@ -3021,11 +3021,11 @@
             },
             {
               "prompt": "Pitch",
-              "expectation": "UP TO MAINTAIN Vx: 65 KIAS",
+              "expectation": "Vx 65 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Positive Rate of Climb",
+              "prompt": "Positive Rate",
               "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -3036,7 +3036,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "ACCELERATE TO Vy: 72 KIAS",
+              "expectation": "Vy 72 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3046,7 +3046,7 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "UP (POSITION 0)",
+              "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3065,13 +3065,13 @@
               "centered": true
             },
             {
-              "prompt": "Outside Visual Reference",
-              "expectation": "PICK APPROPRIATE POINT",
+              "prompt": "Visual Reference",
+              "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3086,67 +3086,67 @@
             },
             {
               "prompt": "Power",
-              "expectation": "REDUCE TO 3500 - 3700 RPM",
+              "expectation": "3500-3700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE TO MAINTAIN ALTITUDE",
+              "expectation": "MAINTAIN ALTITUDE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flaps (Below 85 KIAS)",
+              "prompt": "Flaps (<85 KIAS)",
               "expectation": "POSITION 1",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Trim",
-              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Flaps",
-              "expectation": "FULL (POSITION 3)",
+              "expectation": "FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Wings",
-              "expectation": "MAINTAIN LEVEL OR AS SPECIFIED",
+              "expectation": "LEVEL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE UNTIL 60 KIAS",
+              "expectation": "TO 60 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Nose",
-              "expectation": "LOWER TO SIMULATE APPROACH (~65 KIAS, 500 FT/MIN DESCENT)",
+              "expectation": "SIMULATE APPROACH ~65 KIAS, 500 FPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Power",
-              "expectation": "IDLE (AFTER ESTABLISHED)",
+              "expectation": "IDLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "GRADUALLY INCREASE TO HORIZON",
+              "expectation": "HOLD TO HORIZON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "CONTINUE INCREASING TO REDUCE AIRSPEED",
+              "expectation": "INCREASE TO REDUCE AIRSPEED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Rudder Pedals",
-              "expectation": "MAINTAIN COORDINATION",
+              "prompt": "Rudder",
+              "expectation": "COORDINATED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "AOA Indication",
-              "expectation": "RECOGNIZE FULL STALL",
+              "prompt": "AOA",
+              "expectation": "RECOGNIZE STALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3156,12 +3156,12 @@
             },
             {
               "prompt": "Pitch",
-              "expectation": "DOWN UNTIL STALL INDICATIONS CEASE",
+              "expectation": "DOWN, BREAK STALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Power",
-              "expectation": "MAX (SIMULTANEOUS WITH PITCH DOWN)",
+              "expectation": "MAX (WITH PITCH DOWN)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3171,21 +3171,21 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "VERIFY INCREASING",
+              "expectation": "INCREASING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Airspeed",
-              "expectation": "ACCELERATE TO 60 KIAS",
+              "expectation": "60 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pitch",
-              "expectation": "UP TO MAINTAIN Vx: 65 KIAS",
+              "expectation": "Vx 65 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Positive Rate of Climb",
+              "prompt": "Positive Rate",
               "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -3196,7 +3196,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "ACCELERATE TO Vy: 72 KIAS",
+              "expectation": "Vy 72 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3206,7 +3206,7 @@
             },
             {
               "prompt": "Flaps",
-              "expectation": "UP (POSITION 0)",
+              "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3225,13 +3225,13 @@
               "centered": true
             },
             {
-              "prompt": "Outside Visual Reference",
-              "expectation": "PICK APPROPRIATE POINT",
+              "prompt": "Visual Reference",
+              "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3246,32 +3246,32 @@
             },
             {
               "prompt": "Power",
-              "expectation": "REDUCE TO 3500 - 3700 RPM",
+              "expectation": "3500-3700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE TO MAINTAIN ALTITUDE",
+              "expectation": "MAINTAIN ALTITUDE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Flaps (Below 85 KIAS)",
+              "prompt": "Flaps (<85 KIAS)",
               "expectation": "POSITION 1",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Trim",
-              "expectation": "ADJUST TO RELIEVE PRESSURES",
+              "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Wings",
-              "expectation": "MAINTAIN LEVEL OR AS SPECIFIED",
+              "expectation": "LEVEL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "INCREASE UNTIL 60 KIAS",
+              "expectation": "TO 60 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3281,17 +3281,17 @@
             },
             {
               "prompt": "Back Pressure",
-              "expectation": "CONTINUE INCREASING TO REDUCE AIRSPEED (20 DEGREES PITCH)",
+              "expectation": "INCREASE TO REDUCE AIRSPEED (20 DEGREES PITCH)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Rudder Pedals",
-              "expectation": "MAINTAIN COORDINATION",
+              "prompt": "Rudder",
+              "expectation": "COORDINATED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "AOA Indication",
-              "expectation": "RECOGNIZE FULL STALL",
+              "prompt": "AOA",
+              "expectation": "RECOGNIZE STALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3301,7 +3301,7 @@
             },
             {
               "prompt": "Pitch",
-              "expectation": "SLIGHTLY BELOW HORIZON & STALL INDICATIONS CEASE",
+              "expectation": "BELOW HORIZON, BREAK STALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3311,27 +3311,27 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "VERIFY INCREASING",
+              "expectation": "INCREASING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Airspeed",
-              "expectation": "ACCELERATE TO 60 KIAS",
+              "expectation": "60 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pitch",
-              "expectation": "UP TO MAINTAIN Vx: 65 KIAS",
+              "expectation": "Vx 65 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Positive Rate of Climb",
+              "prompt": "Positive Rate",
               "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Airspeed",
-              "expectation": "ACCELERATE TO Vy: 72 KIAS",
+              "expectation": "Vy 72 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3360,13 +3360,13 @@
               "centered": true
             },
             {
-              "prompt": "Outside Visual Reference",
-              "expectation": "PICK APPROPRIATE POINT",
+              "prompt": "Visual Reference",
+              "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3381,7 +3381,7 @@
             },
             {
               "prompt": "Airspeed",
-              "expectation": "BELOW VA/VO (91 KIAS)",
+              "expectation": "<VA 91 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3391,32 +3391,32 @@
             },
             {
               "prompt": "Bank",
-              "expectation": "GRADUAL LEFT OR RIGHT TURN TO >= 45 degrees",
+              "expectation": "LEFT OR RIGHT >= 45 DEGREES",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Back Pressure (passing 20 degrees Bank)",
-              "expectation": "GRADUALLY INCREASE TO MAINTAIN ALTITUDE",
+              "expectation": "MAINTAIN ALTITUDE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Left turn: nose on horizon. Right turn: left edge of cowling on horizon.",
+              "prompt": "Left turn: nose on horizon. Right turn: cowl left edge on horizon.",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
-              "prompt": "Hold approximately 5 degrees pitch up (at ~60 degrees bank)",
+              "prompt": "Hold ~5 degrees pitch up (at ~60 degrees bank)",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
               "prompt": "Power",
-              "expectation": "INCREASE ~200 RPM FROM ENTRY",
+              "expectation": "INCREASE ~200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Pitch, Power, Bank",
-              "expectation": "MAINTAIN ALTITUDE & AIRSPEED",
+              "prompt": "Pitch/Power/Bank",
+              "expectation": "MAINTAIN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3426,17 +3426,17 @@
             },
             {
               "prompt": "Roll Out",
-              "expectation": "BEGIN 20 degrees BEFORE ENTRY HEADING",
+              "expectation": "20 DEGREES BEFORE ENTRY HEADING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pitch",
-              "expectation": "GRADUALLY DECREASE TO PREVENT ALTITUDE GAIN",
+              "expectation": "REDUCE TO HOLD ALTITUDE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Power",
-              "expectation": "REDUCE ~200 RPM",
+              "expectation": "-~200 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3456,12 +3456,12 @@
             },
             {
               "prompt": "Visual Reference",
-              "expectation": "CHOOSE 90 DEGREES OFF WING IN DIRECTION OF TURN",
+              "expectation": "90 DEGREES OFF WING IN TURN DIRECTION",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3470,13 +3470,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Current Airplane Heading",
-              "expectation": "NOTE AS ENTRY HEADING",
+              "prompt": "Current Heading",
+              "expectation": "NOTE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Heading Bug",
-              "expectation": "SET TO EXIT HEADING (180 DEGREEES FROM ENTRY HEADING)",
+              "expectation": "180 DEGREES FROM ENTRY HEADING",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3486,12 +3486,12 @@
             },
             {
               "prompt": "Power",
-              "expectation": "CONFIGURE CRUISE AT ~4500 RPM",
+              "expectation": "~4500 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Bank",
-              "expectation": "ENTER 30° TURN",
+              "expectation": "ESTABLISH 30 DEGREE TURN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3501,32 +3501,32 @@
             },
             {
               "prompt": "Pitch",
-              "expectation": "BEGIN PITCH UP, HOLD MAX (20 DEGREES) AT 45 DEGREE POINT",
+              "expectation": "PITCH UP, MAX 20 DEGREES AT 45 DEGREES POINT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Maintain coordination throughout the maneuver",
+              "prompt": "Maintain coordination throughout",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
-              "prompt": "Last 90 degrees of Turn",
-              "expectation": "MAINTAIN MAX PITCH-UP ATTITUDE (20 DEGREES)",
+              "prompt": "Last 90 DEGREES of Turn",
+              "expectation": "HOLD 20 DEGREES PITCH UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Bank",
-              "expectation": "RELIEVE TO WINGS LEVEL AT 180° WITH MAX PITCH UP",
+              "expectation": "WINGS LEVEL AT 180 DEGREES, MAX PITCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Airspeed",
-              "expectation": "MINIMUM CONTROLLABLE (55 KIAS)",
+              "expectation": "~55 KIAS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Airspeed",
-              "expectation": "HOLD WITHOUT STALLING",
+              "expectation": "HOLD",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3535,8 +3535,8 @@
               "centered": true
             },
             {
-              "prompt": "Angle of Attack",
-              "expectation": "SLOWLY LOWER WITHOUT LOSING ALTITUDE",
+              "prompt": "AOA",
+              "expectation": "SLOWLY LOWER, NO ALTITUDE LOSS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3556,22 +3556,22 @@
             },
             {
               "prompt": "Pylons",
-              "expectation": "CHOOSE TWO VISUAL REFERENCES",
+              "expectation": "SELECT TWO",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Distance: approximately 1/2 to 1 mile apart",
+              "prompt": "Distance: approx 1/2 to 1 mile apart",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
-              "prompt": "Pylons should be in a line perpendicular to the wind direction",
+              "prompt": "Pylons perpendicular to wind",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
               "prompt": "Pivotal Altitude",
-              "expectation": "DETERMINE FROM GROUND SPEED ON DOWNWIND (BEFORE ENTERING)",
+              "expectation": "CALC FROM GROUND SPEED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3625,13 +3625,13 @@
               "centered": true
             },
             {
-              "prompt": "Airplane Heading & Pivotal Altitude",
+              "prompt": "Heading & Pivotal Altitude",
               "expectation": "NOTE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pre-Maneuver Checklist",
-              "expectation": "PERFORM (FUEL PUMPS ON & CLEARING TURNS)",
+              "expectation": "COMPLETE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3641,12 +3641,12 @@
             },
             {
               "prompt": "Power",
-              "expectation": "CONFIGURE CRUISE AT 5000 RPM",
+              "expectation": "5000 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Position",
-              "expectation": "ENTER AT 45 DEGREES BETWEEN PYLONS ON DOWNWIND AT PIVOTAL ALTITUDE",
+              "expectation": "45 DEGREES BETWEEN PYLONS, DOWNWIND, PIVOTAL ALT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3655,13 +3655,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Adjust pitch to maintain pivotal altitude, keeping pylon at same spot relative to wing tip",
+              "prompt": "Adjust pitch to hold pivotal altitude, keep pylon on wing tip",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
               "prompt": "Wings",
-              "expectation": "MOMENTARILY LEVEL WHEN FLYING TO NEXT PYLON",
+              "expectation": "LEVEL BETWEEN PYLONS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3671,7 +3671,7 @@
             },
             {
               "prompt": "Second Pylon",
-              "expectation": "REPEAT PITCH ADJUSTMENT",
+              "expectation": "REPEAT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -3681,7 +3681,7 @@
             },
             {
               "prompt": "Exit",
-              "expectation": "AT ENTRY ALTITUDE, HEADING & AIRSPEED",
+              "expectation": "SAME AS ENTRY ALT/HDG/AIRSPEED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
