@@ -466,11 +466,11 @@
             },
             {
               "prompt": "Oil Temperature",
-              "expectation": "> 123F (50C)",
+              "expectation": ">= 123F (50C)",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "THROTTLE SHOULD REMAIN < 2500 RPM UNTIL OIL TEMP > 123F (50C)",
+              "prompt": "THROTTLE SHOULD REMAIN < 2500 RPM UNTIL OIL TEMP >= 123F (50C)",
               "type": "ITEM_WARNING",
               "centered": true
             },
@@ -680,7 +680,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "VERIFY OIL TEMPERATURE > 123F (50C)",
+              "prompt": "VERIFY OIL TEMPERATURE >= 123F (50C)",
               "type": "ITEM_WARNING",
               "centered": true
             },
@@ -3575,7 +3575,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "PIVOTAL ALTITUDE REFERENCE (GS² / 11.3)",
+              "prompt": "PIVOTAL ALTITUDE REFERENCE (GS^2 / 11.3)",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
