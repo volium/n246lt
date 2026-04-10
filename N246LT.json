@@ -2915,6 +2915,16 @@
               "centered": true
             },
             {
+              "prompt": "Select an altitude allowing the maneuver to be completed above 1500 ft AGL",
+              "type": "ITEM_CAUTION",
+              "centered": true
+            },
+            {
+              "prompt": "Airspeed must be maintained +5/-0 kt above stall (47 KIAS)",
+              "type": "ITEM_CAUTION",
+              "centered": true
+            },
+            {
               "prompt": "Visual Reference",
               "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -2990,7 +3000,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Hold 55 KIAS or min speed without stalling",
+              "prompt": "Hold 47 KIAS or min speed without stalling (+5/-0 kt)",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
@@ -3062,6 +3072,11 @@
             {
               "prompt": "SETUP",
               "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Select an altitude allowing the maneuver to be completed above 1500 ft AGL",
+              "type": "ITEM_CAUTION",
               "centered": true
             },
             {
@@ -3225,6 +3240,11 @@
               "centered": true
             },
             {
+              "prompt": "Select an altitude allowing the maneuver to be completed above 1500 ft AGL",
+              "type": "ITEM_CAUTION",
+              "centered": true
+            },
+            {
               "prompt": "Visual Reference",
               "expectation": "SELECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -3352,12 +3372,122 @@
           ]
         },
         {
+          "title": "ACCELERATED STALL",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Select an altitude allowing the maneuver to be completed above 3000 ft AGL",
+              "type": "ITEM_CAUTION",
+              "centered": true
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading & Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Speed",
+              "expectation": "REDUCE TO 72 KIAS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "REDUCE TO IDLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Bank",
+              "expectation": "ESTABLISH 30-45 DEGREES",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "At 30 degrees, increase back pressure to induce stall",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Back pressure",
+              "expectation": "HOLD TO MAINTAIN TIGHT TURN RADIUS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "RECOVERY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "At first indication of stall, simultaneously:",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Reduce angle of attack",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Increase to full power",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Return to wings level",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Heading",
+              "expectation": "MAINTAIN ENDING HEADING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Power",
+              "expectation": "MAX",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "INCREASING",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Airspeed",
+              "expectation": "VA (<91 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Cruise Checklist",
+              "expectation": "PERFORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
           "title": "STEEP TURNS",
           "items": [
             {
               "prompt": "SETUP",
               "type": "ITEM_TITLE",
               "centered": true
+            },
+            {
+              "prompt": "Altitude",
+              "expectation": "> 1500 FT AGL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Visual Reference",
@@ -3455,6 +3585,11 @@
               "centered": true
             },
             {
+              "prompt": "Altitude",
+              "expectation": "> 1500 FT AGL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Visual Reference",
               "expectation": "90 DEGREES OFF WING IN TURN DIRECTION",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -3547,6 +3682,76 @@
           ]
         },
         {
+          "title": "LAZY EIGHTS",
+          "items": [
+            {
+              "prompt": "SETUP",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Altitude",
+              "expectation": "> 1500 FT AGL",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Visual Reference",
+              "expectation": "ESTABLISH ON BOTH WINGS",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Pre-Maneuver Checklist",
+              "expectation": "COMPLETE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Altitude Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Heading Bug",
+              "expectation": "SET",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ENTRY",
+              "type": "ITEM_TITLE",
+              "centered": true
+            },
+            {
+              "prompt": "Power",
+              "expectation": "~4500 RPM (<VA 91 KIAS)",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Bank and slowly increase pitch to max 25 degrees, limit bank to 30 degrees",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "At 90 degrees, maintain minimum airspeed and lower nose to horizon",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Continue rolling to 180 degrees, use pitch to control airspeed and altitude",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "At 180 degrees, wings level, starting altitude and airspeed",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
+              "prompt": "Repeat in opposite direction",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            }
+          ]
+        },
+        {
           "title": "EIGHTS ON PYLONS",
           "items": [
             {
@@ -3555,19 +3760,24 @@
               "centered": true
             },
             {
+              "prompt": "Determine wind directionand fly downwind",
+              "type": "ITEM_PLAINTEXT",
+              "centered": true
+            },
+            {
               "prompt": "Pylons",
-              "expectation": "SELECT TWO",
+              "expectation": "SELECT TWO, PERPENDICULAR TO WIND",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Distance: approx 1/2 to 1 mile apart",
+              "prompt": "Distance between pylons: approx 1/2 to 1 mile apart",
               "type": "ITEM_PLAINTEXT",
               "centered": true
             },
             {
-              "prompt": "Pylons perpendicular to wind",
-              "type": "ITEM_PLAINTEXT",
-              "centered": true
+              "prompt": "Power",
+              "expectation": "5000 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Pivotal Altitude",
@@ -3638,11 +3848,6 @@
               "prompt": "ENTRY",
               "type": "ITEM_TITLE",
               "centered": true
-            },
-            {
-              "prompt": "Power",
-              "expectation": "5000 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Position",
